@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<LangVersion>13</LangVersion>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<EnableHarmony>true</EnableHarmony>
+		<MSBuildWarningsAsMessages>MSB3277</MSBuildWarningsAsMessages>
+		<EnableModZip>False</EnableModZip>
+		<GamePath>C:\Program Files (x86)\Steam\steamapps\common\Stardew Valley</GamePath>
+		<GameModsPath>$(GamePath)\Mods</GameModsPath>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Pathoschild.Stardew.ModBuildConfig" Version="4.4.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Reference Include="DaLion.Professions">
+	    <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Stardew Valley\Mods\DaLion.Professions\DaLion.Professions.dll</HintPath>
+	    <Private>False</Private>
+	  </Reference>
+	  <Reference Include="VanillaPlusProfessions">
+	    <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Stardew Valley\Mods\Vanilla Plus Professions\VanillaPlusProfessions\VanillaPlusProfessions.dll</HintPath>
+	    <Private>False</Private>
+	  </Reference>
+	</ItemGroup>
+</Project>

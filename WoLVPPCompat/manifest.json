@@ -1,0 +1,22 @@
+{
+  "Name": "WoL + VPP Compat",
+  "Author": "AlanBF",
+  "Version": "0.1",
+  "Description": "Makes WoL and VPP compatible with each other",
+  "UniqueID": "AlanBF.WoLVPPCompat",
+  "EntryDll": "WoLVPPCompat.dll",
+  "MinimumApiVersion": "4.1.10",
+  "UpdateKeys": [ "Nexus:???" ],
+  "Dependencies": [
+    {
+      "UniqueID": "DaLion.Professions",
+      "MinimumVersion": "1.3.4",
+      "IsRequired": true
+    },
+    {
+      "UniqueID": "KediDili.VanillaPlusProfessions",
+      "MinimumVersion": "1.0.9",
+      "IsRequired": true
+    }
+  ]
+}
