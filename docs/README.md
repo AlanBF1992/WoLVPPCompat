@@ -1,5 +1,7 @@
 # WoL + VPP Compat
 
+![](images/WoL+VPP.png)
+
 This mod aims to make Walk of Life and Vanilla Plus Professions compatible.
 
 ## WoL
